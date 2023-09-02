@@ -2,7 +2,7 @@ let number=20;
 let count=0;
 for(i=1;i<=number;i++){
     
-    if(number%i==1){
+    if(number%i===0){
         count++;
     }
 }
